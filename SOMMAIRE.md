@@ -1,27 +1,34 @@
 
 # Sommaire
 
-- [Introduction](#introduction)
-- [Chapitre 1 : Analyse des risques et des menaces](#chapitre-1--analyse-des-risques-et-des-menaces)
-  - [1.1 Comprendre les risques](#11-comprendre-les-risques)
-  - [Menaces courantes](#menaces-courantes)
-  - [Études de cas et incidents de cybersécurité](#études-de-cas-et-incidents-de-cybersécurité)
-- [Chapitre 2 : Sécurisation de l'application](#chapitre-2--sécurisation-de-lapplication)
-  - [2.1 Protection contre les attaques OWASP Top 10](#21-protection-contre-les-attaques-owasp-top-10)
-    - [Injection Attacks (SQL, NoSQL, Command Injection)](#injection-attacks-sql-nosql-command-injection)
-    - [Cross-Site Scripting (XSS)](#cross-site-scripting-xss)
-    - [Sécurisation des API](#sécurisation-des-api)
-  - [2.2 Sécurisation des données](#22-sécurisation-des-données)
-  - [2.3 Gestion des sessions](#23-gestion-des-sessions)
-  - [2.4 Protection contre les attaques DDoS](#24-protection-contre-les-attaques-ddos)
-- [Chapitre 3 : Sécurisation de l’infrastructure](#chapitre-3--sécurisation-de-linfrastructure)
-  - [3.1 Sécurité du réseau](#31-sécurité-du-réseau)
-  - [3.2 Sécurisation du serveur](#32-sécurisation-du-serveur)
-- [Chapitre 4 : Tests et surveillance continue](#chapitre-4--tests-et-surveillance-continue)
-  - [4.1 Tests de pénétration](#41-tests-de-pénétration)
-  - [4.2 Surveillance et journalisation](#42-surveillance-et-journalisation)
-- [Chapitre 5 : Conformité aux normes et réglementations](#chapitre-5--conformité-aux-normes-et-réglementations)
-  - [5.1 Conformité RGPD](#51-conformité-rgpd)
-  - [5.2 Respect des recommandations de l’ANSSI](#52-respect-des-recommandations-de-lanssi)
-- [Chapitre 6 : Formation et sensibilisation](#chapitre-6--formation-et-sensibilisation)
-- [Conclusion](#conclusion)
+## Introduction
+
+## Chapitre 1: Analyse Initiale et Évaluation des Risques
+- 1.1 Méthodologie d'évaluation des risques
+- 1.2 Identification des actifs critiques
+- 1.3 Analyse des menaces spécifiques aux applications pire2pire.com 
+- 1.4 Évaluation de la maturité sécuritaire actuelle
+- 1.5 Définition des objectifs de sécurité
+
+## Chapitre 2: Sécurisation du Front-end
+- 2.1 Stratégie d'authentification
+- 2.2 Protection contre les vulnérabilités côté client
+- 2.3 Sécurité des données côté client
+- 2.4 Mise en œuvre de Content Security Policy (CSP)
+- 2.5 Techniques de développement sécurisé
+
+## Chapitre 3: Sécurisation de l'API
+- 3.1 Architecture de sécurité API
+- 3.2 Authentification et autorisation
+- 3.3 Validation et filtrage des données
+- 3.4 Mesures de protection de l'infrastructure API
+- 3.5 Monitoring et logging de sécurité
+
+## Chapitre 4: Sécurisation de la Base de Données
+- 4.1 Architecture sécurisée de la base de données
+- 4.2 Chiffrement des données
+- 4.3 Contrôle d'accès à la base de données
+- 4.4 Auditing et surveillance
+- 4.5 Stratégies de sauvegarde et récupération
+
+## Conclusion
