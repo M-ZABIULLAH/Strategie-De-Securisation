@@ -3,32 +3,47 @@
 
 ## Introduction
 
-## Chapitre 1: Analyse Initiale et Évaluation des Risques
-- 1.1 Méthodologie d'évaluation des risques
-- 1.2 Identification des actifs critiques
-- 1.3 Analyse des menaces spécifiques aux applications pire2pire.com 
-- 1.4 Évaluation de la maturité sécuritaire actuelle
-- 1.5 Définition des objectifs de sécurité
+## Chapitre 1 : Analyse Initiale et Évaluation des Risques
+- Identification des actifs
+- Menaces principales
+- Classification des données par sensibilité
+- Analyse des risques
+- Plan de sécurisation
 
-## Chapitre 2: Sécurisation du Front-end
-- 2.1 Stratégie d'authentification
-- 2.2 Protection contre les vulnérabilités côté client
-- 2.3 Sécurité des données côté client
-- 2.4 Mise en œuvre de Content Security Policy (CSP)
-- 2.5 Techniques de développement sécurisé
+## Chapitre 2 : Sécurité Front-end
+- Pratiques de codage sécurisé
+  - Optimisation de la sécurité des frameworks
+  - Implémentation de la Content Security Policy
+  - Défense contre XSS
+- Authentification et gestion de session
+  - Implémentation d'authentification sécurisée
+  - Gestion JWT
+  - Protection CSRF
+- Validation des entrées et gestion des données
+- Sécurité des téléchargements de fichiers
+- Protection contre les attaques front-end courantes
+- Défense contre l'exposition de données sensibles
 
-## Chapitre 3: Sécurisation de l'API
-- 3.1 Architecture de sécurité API
-- 3.2 Authentification et autorisation
-- 3.3 Validation et filtrage des données
-- 3.4 Mesures de protection de l'infrastructure API
-- 3.5 Monitoring et logging de sécurité
+## Chapitre 3 : Sécurisation des API
+- Introduction et défis spécifiques dans un environnement P2P
+- Architecture sécurisée
+- Authentification et autorisation
+- Protection contre les attaques courantes
+- Surveillance et réponse aux incidents
+- Développement sécurisé
+- Conformité RGPD
+- Tests et validation
+- Documentation et formation
 
-## Chapitre 4: Sécurisation de la Base de Données
-- 4.1 Architecture sécurisée de la base de données
-- 4.2 Chiffrement des données
-- 4.3 Contrôle d'accès à la base de données
-- 4.4 Auditing et surveillance
-- 4.5 Stratégies de sauvegarde et récupération
+## Chapitre 4 : Sécurisation des Bases de Données
+- Architecture et conception sécurisée
+- Contrôle d'accès et authentification
+- Chiffrement des données
+- Protection contre les injections SQL
+- Durcissement de la configuration
+- Surveillance et journalisation
+- Sauvegarde et plan de reprise d'activité
+- Conformité RGPD
+- Recommandations spécifiques pour pire2pire.com
 
 ## Conclusion
